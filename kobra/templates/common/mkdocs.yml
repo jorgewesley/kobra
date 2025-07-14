@@ -1,0 +1,5 @@
+site_name: {{ project_name }}
+theme:
+  name: material
+nav:
+  - Home: index.md
