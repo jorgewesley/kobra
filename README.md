@@ -81,6 +81,6 @@ Veja [CONTRIBUTING.md](CONTRIBUTING.md) para detalhes sobre como contribuir.
 Este projeto está licenciado sob a [MIT License](LICENSE).
 
 ## Contato
-- Autor: Your Name
-- Email: your.email@example.com
-- GitHub: [yourusername/kobra](https://github.com/yourusername/kobra)
+- Autor: Jorge Wesley
+- Email: wesleycardozoo@gmail.com
+- GitHub: [jorgewesley/kobra](https://github.com/jorgewesley/kobra)
