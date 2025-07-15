@@ -1,8 +1,7 @@
 import typer
-import os
-from kobra.generator import create_project_structure, validate_project_name, check_requirements
+from pykobra.generator import create_project_structure, validate_project_name, check_requirements
 
-app = typer.Typer(name="Kobra", help="🐍 Kobra - Gerador de projetos Flask e FastAPI")
+app = typer.Typer(name="PyKobra", help="🐍 PyKobra - Gerador de projetos Flask e FastAPI")
 
 @app.command()
 def create(
@@ -13,7 +12,7 @@ def create(
     frontend: bool = typer.Option(False, "--frontend/--no-frontend", help="Incluir frontend React")
 ):
     """Cria um novo projeto web com Flask ou FastAPI."""
-    typer.echo("🐍 Kobra - Gerador de Projetos Web")
+    typer.echo("🐍 PyKobra - Gerador de Projetos Web")
     typer.echo("---------------------------------------")
 
     check_requirements()
