@@ -1,7 +1,7 @@
 [project]
-name = "kobra"
+name = "pykobra"
 version = "0.1.0"
-description = "🐍 Kobra - A CLI tool to generate Flask and FastAPI project structures"
+description = "🐍 PyKobra - A CLI tool to generate Flask and FastAPI project structures"
 authors = [
     { name = "Your Name", email = "your.email@example.com" }
 ]
@@ -14,7 +14,7 @@ dependencies = [
 ]
 
 [project.scripts]
-kobra = "kobra.cli:app"
+pykobra = "pykobra.cli:app"
 
 [build-system]
 requires = ["setuptools>=61.0"]
