@@ -1,0 +1,2 @@
+[console_scripts]
+kobra = kobra.cli:app
